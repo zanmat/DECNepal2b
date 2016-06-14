@@ -1,6 +1,6 @@
 
 
-    d3.json("https://zanmatt.cartodb.com/api/v2/viz/4453eb6e-323a-11e6-9d2b-0e31c9be1b51/viz.json", function(data) {
+    d3.json("DECData.json", function(data) {
      // drawMarkerSelect(data);
       drawMarkerArea(data);
     });
