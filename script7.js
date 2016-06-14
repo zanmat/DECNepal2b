@@ -1,6 +1,6 @@
 
 
-    d3.tsv("DECData.tsv", function(data) {
+    d3.json("DECData.json", function(data) {
      // drawMarkerSelect(data);
       drawMarkerArea(data);
     });
