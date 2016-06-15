@@ -7,7 +7,7 @@ var config = {
     whoFieldName:"organisation",
     whatFieldName:"activity",
     whereFieldName:"adm3_code",
-    statusFieldName:"status",
+    statusFieldName:"adm3_code",
     geo:"data/nepal.geojson",
     joinAttribute:"HRName",
     colors:['#81d4fa','#4fc3f7','#29b6f6','#03a9f4','#039be5','#0288d1','#0277bd','#01579b']
