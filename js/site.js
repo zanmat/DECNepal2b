@@ -3,13 +3,13 @@
 var config = {
     title:"Vanuatu Cyclone Pam 3W",
     description:"<p>Click the graphs or map to interact.<br />Date: 07/05/2015 - Contact: <a href='https://twitter.com/Simon_B_Johnson' target='_blank'>Simon Johnson</a><br />Source: <a href='https://data.hdx.rwlabs.org/dataset/who-is-doing-what-where-in-vanuatu-tropical-cyclone-pam' target='_blank'>Vanuatu Humanitarian Team</a></p>",
-    data:"data/data.json",
+    data:"data/data2.json",
     whoFieldName:"organisation",
     whatFieldName:"activity",
-    whereFieldName:"adm2_code",
+    whereFieldName:"adm3_code",
     statusFieldName:"status",
-    geo:"data/vanuatu.geojson",
-    joinAttribute:"adm2code",
+    geo:"data/nepal.geojson",
+    joinAttribute:"HRName",
     colors:['#81d4fa','#4fc3f7','#29b6f6','#03a9f4','#039be5','#0288d1','#0277bd','#01579b']
 };
 
@@ -86,8 +86,8 @@ function generate3WComponent(config,data,geom){
     whereChart.width($('#hxd-3W-where').width()).height(400)
             .dimension(whereDimension)
             .group(whereGroup)
-            .center([-17.050,168.3000])
-            .zoom(6)    
+            .center([28,84])
+            .zoom(7)    
             .geojson(geom)
             .colors(['#CCCCCC', config.colors[3]])
             .colorDomain([0, 1])
