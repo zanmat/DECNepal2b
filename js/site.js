@@ -2,7 +2,7 @@
 
 var config = {
     title:"Nepal Appeal Phase 2",
-    description:"<p>Click the graphs or map to interact.<br />Date: 15/06/2015 - Contact: <a href='https://twitter.com/matt_zan' target='_blank'>Mattia Zanazzi</a><br />Source: DEC Member Agencies</p>",
+    description:"<p>Click the graphs or map to interact.<br />Date: 15/06/2016 - Contact: <a href='https://twitter.com/matt_zan' target='_blank'>Mattia Zanazzi</a><br />Source: DEC Member Agencies</p>",
     data:"data/data2.json",
     whoFieldName:"organisation",
     whatFieldName:"activity",
